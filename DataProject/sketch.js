@@ -4,16 +4,16 @@ var canvasX = 600;
 var canvasY = 400;
 
 //ellipse size
-var size = 3
+var size = 3;
 
 //Speed
-var speed= 5;
+var speed = 5;
 
 //This is what holds my cvs data
-let AQTable17;
-let AQTable18;
-let AQTable19;
-let AQTable20;
+var AQTable17;
+var AQTable18;
+var AQTable19;
+var AQTable20;
 
 //this array will hold my x and y values for each index
 var arrayX17 = [];
@@ -180,10 +180,10 @@ function drawIndex17() {
     else if(pm2517[row] >= 126 && pm2517[row] <= 150) {
       fill(255,69,0);
     }
-    else if(pm2517[row] >= 151 && pm2517[row] <= 200) {
+    else if(pm2517[row] >= 151 && pm2517[row] <= 175) {
       fill('red');
     }
-    else if(pm2517[row] >= 151 && pm2517[row] <= 200) {
+    else if(pm2517[row] >= 176 && pm2517[row] <= 200) {
       fill(151,21,0);
     }
     else if(pm2517[row] >= 201 && pm2517[row] <= 300) {
@@ -251,10 +251,10 @@ function drawIndex18() {
     else if(pm2518[row] >= 126 && pm2518[row] <= 150) {
       fill(255,69,0);
     }
-    else if(pm2518[row] >= 151 && pm2518[row] <= 200) {
+    else if(pm2518[row] >= 151 && pm2518[row] <= 175) {
       fill('red');
     }
-    else if(pm2518[row] >= 151 && pm2518[row] <= 200) {
+    else if(pm2518[row] >= 176 && pm2518[row] <= 200) {
       fill(151,21,0);
     }
     else if(pm2518[row] >= 201 && pm2518[row] <= 300) {
@@ -322,10 +322,10 @@ function drawIndex19() {
     else if(pm2519[row] >= 126 && pm2519[row] <= 150) {
       fill(255,69,0);
     }
-    else if(pm2519[row] >= 151 && pm2519[row] <= 200) {
+    else if(pm2519[row] >= 151 && pm2519[row] <= 175) {
       fill('red');
     }
-    else if(pm2519[row] >= 151 && pm2519[row] <= 200) {
+    else if(pm2519[row] >= 176 && pm2519[row] <= 200) {
       fill(151,21,0);
     }
     else if(pm2519[row] >= 201 && pm2519[row] <= 300) {
@@ -377,7 +377,7 @@ function drawIndex20() {
    
     //This if statements will test our index to see what level they are at and color our ellipses said color
     if(pm2520[row] >= 0 && pm2520[row] <= 26) {
-      fill(0,250,0);
+      fill(0,250,0);//light green
     }
     else if(pm2520[row] >= 26 && pm2520[row] <= 50) {
       fill('green');
@@ -386,19 +386,19 @@ function drawIndex20() {
       fill('yellow');
     }
     else if(pm2520[row] >= 76 && pm2520[row] <= 100) {
-      fill(255,204,0);
+      fill(255,204,0);//light orange
     }
     else if(pm2520[row] >= 101 && pm2520[row] <= 125) {
-      fill(255,140,0);
+      fill(255,140,0);//oragne
     }
     else if(pm2520[row] >= 126 && pm2520[row] <= 150) {
-      fill(255,69,0);
+      fill(255,69,0);//red oragne
     }
-    else if(pm2520[row] >= 151 && pm2520[row] <= 200) {
+    else if(pm2520[row] >= 151 && pm2520[row] <= 175) {
       fill('red');
     }
-    else if(pm2520[row] >= 151 && pm2520[row] <= 200) {
-      fill(151,21,0);
+    else if(pm2520[row] >= 176 && pm2520[row] <= 200) {
+      fill(151,21,0);//dark red
     }
     else if(pm2520[row] >= 201 && pm2520[row] <= 300) {
       fill('purple');
